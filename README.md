@@ -146,6 +146,14 @@ You can set the session name to be the full path you select instead of the direc
 set -g @tea-session-name "full-path"
 ```
 
+#### include tmux sessions
+
+When in interactive mode, include active **tmux sessions** above remembered projects (before [changing mode](#interactive-mode-keybindings)). Defaults to "true".
+
+```tmux
+set -g @tea-include_sessions "true"
+```
+
 #### preview position
 
 You can set the **preview position** to "top","bottom","left", or "right", default is "top".
