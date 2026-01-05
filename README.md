@@ -154,6 +154,14 @@ You can set the **preview position** to "top","bottom","left", or "right", defau
 set -g @tea-preview-position "bottom"
 ```
 
+#### preview options
+
+Set the **preview options** which will be passed to `eza`. Defaults to:
+
+```tmux
+set -g @tea-eza-options "-ahlT -L=2 -s=extension --group-directories-first --icons --git --git-ignore --no-user --color=always --color-scale=all --color-scale-mode=gradient"
+```
+
 #### input position
 
 You can set the **input position** to "default", "reverse" or "reverse-list", default is "reverse".
